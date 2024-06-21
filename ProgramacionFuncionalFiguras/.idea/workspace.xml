@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61576cd5-a7b6-430f-a7ab-b8e7a11641cc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProgramacionFuncionalFiguras.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/GraphicsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/IShapeGraphics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/ControlPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/GraphicsPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/GraphicsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/GraphicsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/IShapeGraphics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/IShapeGraphics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/ControlPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/ControlPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/GraphicsPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/GraphicsPanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,10 +28,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2iCPYtjCvcZ28kVOv6686asIST6" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -42,6 +40,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.Unnamed.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
@@ -53,6 +52,15 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="ProgramacionFuncionalFiguras" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -69,7 +77,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718991645891</updated>
-      <workItem from="1718991645938" duration="4056000" />
+      <workItem from="1718991645938" duration="4732000" />
+      <workItem from="1719005049941" duration="4879000" />
     </task>
     <servers />
   </component>

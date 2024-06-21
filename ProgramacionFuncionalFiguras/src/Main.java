@@ -1,4 +1,5 @@
 import view.ControlPanel;
+
 import javax.swing.JFrame;
 
 /**
@@ -12,7 +13,7 @@ public class Main {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(400, 400);
 
-        ControlPanel  panel = new ControlPanel();
+        ControlPanel panel = new ControlPanel();
         frame.add(panel);
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);

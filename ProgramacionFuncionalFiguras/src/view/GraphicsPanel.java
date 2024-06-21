@@ -2,26 +2,36 @@ package view;
 
 import javax.swing.JPanel;
 import java.awt.Color;
+import java.awt.Dimension;
 import java.awt.Graphics;
-import controller.GraphicsController;
+
+import model.IShapeGraphics;
 
 public class GraphicsPanel extends JPanel {
-    private String shape = "";
-    private GraphicsController graphicsController;
+    private IShapeGraphics shapeGraphics;
 
-    public GraphicsPanel(GraphicsController graphicsController) {
-        this.graphicsController = graphicsController;
+    public GraphicsPanel() {
+        setBackground(Color.BLACK);
+        setPreferredSize(new Dimension(400, 400));
     }
 
-    public void setShape(String shape) {
-        this.shape = shape;
+    public void setShapeGraphics(IShapeGraphics shapeGraphics) {
+        this.shapeGraphics = shapeGraphics;
         repaint();
     }
 
     @Override
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);
-        setBackground(Color.BLACK);
-        graphicsController.drawShape(shape, g);
+        if (shapeGraphics != null) {
+            int centerX = getWidth() / 2;
+            int centerY = getHeight() / 2;
+            int shapeSize = 200;
+
+            int x = centerX - shapeSize / 2;
+            int y = centerY - shapeSize / 2;
+
+            shapeGraphics.drawShape(g, x, y);
+        }
     }
 }

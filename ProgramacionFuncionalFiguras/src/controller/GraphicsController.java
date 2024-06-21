@@ -2,8 +2,6 @@ package controller;
 
 import model.IShapeGraphics;
 
-import java.awt.*;
-
 public class GraphicsController {
     private IShapeGraphics circleForm;
     private IShapeGraphics squareForm;
@@ -15,23 +13,15 @@ public class GraphicsController {
         this.triangleForm = triangleForm;
     }
 
-    public void drawShape(String shape, Graphics g) {
-        switch (shape) {
-            case "Circle":
-                if (circleForm != null) {
-                    circleForm.draw(g);
-                }
-                break;
-            case "Triangle":
-                if (triangleForm != null) {
-                    triangleForm.draw(g);
-                }
-                break;
-            case "Square":
-                if (squareForm != null) {
-                    squareForm.draw(g);
-                }
-                break;
-        }
+    public void functionCircle(IShapeGraphics circle, java.awt.Graphics g) {
+        circleForm.drawShape(g, 250, 250);
+    }
+
+    public void functionTriangle(IShapeGraphics triangle, java.awt.Graphics g) {
+        triangleForm.drawShape(g, 200, 200);
+    }
+
+    public void functionSquare(IShapeGraphics square, java.awt.Graphics g) {
+        squareForm.drawShape(g, 200, 200);
     }
 }

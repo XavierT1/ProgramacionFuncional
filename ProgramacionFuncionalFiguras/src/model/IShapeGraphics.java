@@ -1,8 +1,8 @@
 package model;
 
-import java.awt.*;
+import java.awt.Graphics;
 
 @FunctionalInterface
 public interface IShapeGraphics {
-    void draw(Graphics g);
+    void drawShape(Graphics g, int x, int y);
 }
